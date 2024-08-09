@@ -9,16 +9,15 @@
 
 @layer components {
 
+  /* header*/
   .header {
     @apply 
     flex 
     flex-row
     w-full    
     p-12
-    bg-background-primera
-    
-    ;
-    
+    bg-background-primera    
+    ;    
   }
 
   .logo-omnifood {
@@ -30,15 +29,13 @@
     @apply 
     flex 
     flex-grow
-    font-Rubik
-    
+    font-Rubik    
     gap-6
     mx-auto
     justify-end
     text-lg
     font-medium
-    text-gris-nav
-   
+    text-gris-nav   
     ;
   }
 
@@ -47,7 +44,6 @@
     hover:text-naranja-hover
     ;
   }
-
   
   .btn-naranja{
     @apply
@@ -61,6 +57,123 @@
       text-base
       rounded-xl
       hover:bg-naranja-hover 
+    ;
+  }
+
+  /*primera seccion*/
+  .primera-seccion{
+    @apply
+    flex
+    flex-row
+    mx-auto
+    p-12
+    bg-background-primera    
+    ;
+  }
+  .titulo-principal{
+    @apply
+    font-Rubik
+    font-bold
+    text-left
+    text-6xl
+    
+    text-gris-nav
+    mb-10
+    ;
+  }
+  .parrafo{
+    @apply
+    text-xl
+    text-gris-nav
+    mb-10
+    ;
+  }
+  .btn-naranja-sec{
+    @apply
+    text-center
+      bg-naranja
+      text-white
+      pt-2
+      pb-2
+      pl-9
+      pr-9
+      rounded-xl
+      text-xl
+      font-bold 
+      hover:bg-naranja-hover
+    ;
+  }
+  .btn-blanco{
+    @apply
+    text-center
+      bg-white
+      text-gris-nav
+      flex
+      pt-2
+      pb-2
+      pl-8
+      pr-8
+      text-xl
+      font-bold 
+      rounded-xl
+      border
+      border-gray-200
+    ;
+  }
+
+  .imagenes-peq{
+    @apply
+    flex
+    mt-14
+
+  }
+
+  .image{
+    @apply
+    flex
+    absolute
+    aspect-square
+    h-12
+    rounded-full
+    border-4
+    border-white
+    ;
+  }
+ 
+  .image2{
+    @apply
+        ml-9  
+  }
+  .image3{
+    @apply    
+    ml-16
+  }
+  .image4{
+    @apply   
+    ml-24
+  }
+  .image5{
+    @apply   
+    ml-32
+  }
+  .image6{
+    @apply   
+    ml-40
+  }
+
+  .parrafo-seccion1{
+    @apply
+    ml-56 
+    text-left 
+    text-gris-nav 
+    text-xl 
+    pt-3
+    ;
+  }
+  .strong-seccion1{
+    @apply
+    text-naranja 
+    text-xl
     ;
   }
 }
