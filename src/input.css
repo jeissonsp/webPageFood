@@ -590,6 +590,56 @@
     ;
   }
 
-       /*septima seccion*/
+  /*septima seccion*/
+  .septima-seccion{
+    @apply
+      grid
+      grid-cols-4
+      gap-8    
+      mx-auto
+      p-20  
+      ;
+  }
+  .card-septima-seccion{
+    @apply
+      text-left    
+    ;
+  }
+  .icon-card-septima-seccion{
+    @apply
+      size-9
+    text-naranja   
+      ml-14
+      mb-7
+    ;
+  }
+  .titulo-cards-septima-seccion{
+    @apply
+      font-Rubik
+    text-gris-nav
+      font-bold
+      text-left
+      text-2xl  
+      ml-8 
+      mt-2
+      mb-8
+    ;
+  }
+  .texto-septima-seccion{
+    @apply
+      flex  
+      mb-6
+      ml-8
+      font-Rubik
+    text-gris-texto
+      text-xl
+    ;
+  }
+
+  /*octava seccion*/
+
+  /*footer seccion*/
+
+
 
 }

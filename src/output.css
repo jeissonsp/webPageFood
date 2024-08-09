@@ -1234,6 +1234,56 @@ video {
 
 /*septima seccion*/
 
+.septima-seccion {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 2rem;
+  padding: 5rem;
+}
+
+.card-septima-seccion {
+  text-align: left;
+}
+
+.icon-card-septima-seccion {
+  margin-left: 3.5rem;
+  margin-bottom: 1.75rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(230 126 34 / var(--tw-text-opacity));
+}
+
+.titulo-cards-septima-seccion {
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(51 51 51 / var(--tw-text-opacity));
+}
+
+.texto-septima-seccion {
+  margin-bottom: 1.5rem;
+  margin-left: 2rem;
+  display: flex;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(85 85 85 / var(--tw-text-opacity));
+}
+
+/*octava seccion*/
+
+/*footer seccion*/
+
 .ml-16 {
   margin-left: 4rem;
 }
