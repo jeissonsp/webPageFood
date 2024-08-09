@@ -897,11 +897,143 @@ video {
 
 /*cuarta seccion*/
 
+.cuarta-seccion {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 5rem;
+  text-align: center;
+}
+
+.titulo-seccion-grid-naranja-center {
+  text-align: center;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(230 126 34 / var(--tw-text-opacity));
+}
+
+.titulo-seccion-4 {
+  margin-bottom: 2.5rem;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(51 51 51 / var(--tw-text-opacity));
+}
+
+.card {
+  margin-right: 1.75rem;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.card:hover {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.imagen-card {
+  margin-bottom: 1.75rem;
+}
+
+.tag {
+  border-radius: 1rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(81 207 102 / var(--tw-bg-opacity));
+  padding: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(51 51 51 / var(--tw-text-opacity));
+}
+
+.titulo-cards {
+  margin-left: 4rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(51 51 51 / var(--tw-text-opacity));
+}
+
+.text-card {
+  margin-left: 4rem;
+  margin-bottom: 1rem;
+  display: flex;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(51 51 51 / var(--tw-text-opacity));
+}
+
+.icon-card {
+  margin-right: 1.25rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(230 126 34 / var(--tw-text-opacity));
+}
+
+.tag-vegan {
+  border-radius: 1rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 216 45 / var(--tw-bg-opacity));
+  padding: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(51 51 51 / var(--tw-text-opacity));
+}
+
+.tag-paleo {
+  border-radius: 1rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 212 59 / var(--tw-bg-opacity));
+  padding: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(51 51 51 / var(--tw-text-opacity));
+}
+
 /*quinta seccion*/
 
 /*sexta seccion*/
 
 /*septima seccion*/
+
+.ml-16 {
+  margin-left: 4rem;
+}
 
 .block {
   display: block;
@@ -920,6 +1052,26 @@ video {
   height: 1.5rem;
 }
 
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
 .gap-5 {
   gap: 1.25rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
