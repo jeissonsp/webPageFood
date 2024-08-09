@@ -727,6 +727,64 @@
 
   /*footer seccion*/
 
+  .novena-seccion{
+    @apply
+      block    
+      mx-auto
+      w-full
+      p-16
+      ml-5
+      mr-20
+      rounded-lg
+      ;
+  }
+  .seccion9{
+    @apply
+    grid 
+    grid-cols-5
+    gap-5
+  }
+  .social-links{
+    @apply
+    flex
+    gap-4
+    mx-auto
+    mt-8
+    mb-12
+    ;
+  }
+  .social-icon{
+    @apply    
+    size-6
+    text-gris-texto
+    ;
+  }
+  .texto-items-peq{
+    @apply
+    text-gris-texto
+      text-sm  
+      font-Rubik 
+      text-left
+      leading-8
+    ;
+  }
+  .texto-items{
+    @apply
+    text-gris-texto
+      text-base      
+      font-Rubik 
+      text-left    
+    ;
+  }
+  .texto-items-footer{
+    @apply
+    text-gris-texto
+    text-base      
+    font-Rubik 
+    text-left
+    leading-8
+    ;
+  }
 
 
 }
