@@ -637,6 +637,93 @@
   }
 
   /*octava seccion*/
+  .octava-seccion{
+    @apply
+    block
+    ;
+  }
+  .texto{
+    @apply
+    bg-background-naranja
+      grid
+      grid-cols-2
+      grid-cols-65-35
+      gap-8    
+      mx-auto
+      p-16
+      ml-20
+      mr-20
+      rounded-lg
+    ;
+  }
+  .titulo-principal8{
+    @apply
+      font-Rubik
+      font-bold
+      text-left
+      text-4xl   
+    text-cafe
+      mb-10    
+    ;
+  }
+  .texto-octava-sec{
+    @apply
+      font-Rubik    
+      mb-10
+      text-xl
+    text-cafe
+    ;
+  }
+  .texto-label{
+    @apply
+    text-cafe
+      font-bold
+      text-base
+      block 
+      mb-2
+    ;
+  }
+  .textField-octava-sec{
+    @apply
+    block 
+    p-2 
+    w-11/12 
+    rounded-xl 
+    font-Rubik  
+    ;
+  }
+  .btn-cafe-seccion8{
+    @apply
+        text-center
+      bg-cafe
+      text-beage        
+        pt-2
+        pb-2
+        pl-9
+        pr-9
+        rounded-xl
+        transition
+        duration-300
+        text-xl
+        font-bold 
+        w-11/12
+        mx-auto  
+        mb-12      
+      hover:bg-white
+      hover:text-gris-texto
+    ;
+  }
+  .cta-img-box {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(235, 151, 78, 0.35),
+        rgba(230, 125, 34, 0.35)
+      ),
+      url("../img/eating.jpg");
+    background-size: cover;
+    background-position: center;
+    
+  }
 
   /*footer seccion*/
 
