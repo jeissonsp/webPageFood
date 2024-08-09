@@ -400,7 +400,78 @@
   }
 
 
-     /*quinta seccion*/
+  /*quinta seccion*/
+  .quinta-seccion{
+    @apply
+    block
+    text-center
+    mx-auto
+    p-20
+    bg-background-primera
+    ;
+  }
+  .titulo-seccion-grid-naranja-left{
+    @apply
+    text-naranja 
+      font-bold
+      text-left
+    ;
+  }
+  .grid-testimonios{
+    @apply
+      grid
+      grid-cols-2    
+    ;
+  }
+  .testimonios{
+    @apply
+      block
+      pr-12
+    ;
+  }
+  .testimonial-img{
+    @apply
+      h-20
+      rounded-full 
+    ;
+  }
+  .text0-blockquote{
+    @apply
+    text-gris-nav
+      font-Rubik 
+      text-xl
+      text-left
+      leading-8
+      mb-4
+      mt-4
+    ;
+  }
+  .texto-autor{
+    @apply
+    text-gris-nav
+      font-Rubik 
+      text-sm
+      text-left
+      ;
+  }
+  .grid-imagenes{
+    @apply
+    grid
+    grid-cols-3
+    ;
+  }
+  .imagenes-cocina{
+    @apply
+      h-44
+      w-44
+      mb-5
+      mr-10
+      transition
+      duration-300
+      hover:scale-110
+    ;
+  }
+
 
       /*sexta seccion*/
 

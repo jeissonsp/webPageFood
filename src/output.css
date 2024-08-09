@@ -1027,6 +1027,81 @@ video {
 
 /*quinta seccion*/
 
+.quinta-seccion {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 242 233 / var(--tw-bg-opacity));
+  padding: 5rem;
+  text-align: center;
+}
+
+.titulo-seccion-grid-naranja-left {
+  text-align: left;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(230 126 34 / var(--tw-text-opacity));
+}
+
+.grid-testimonios {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.testimonios {
+  display: block;
+  padding-right: 3rem;
+}
+
+.testimonial-img {
+  height: 5rem;
+  border-radius: 9999px;
+}
+
+.text0-blockquote {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  --tw-text-opacity: 1;
+  color: rgb(51 51 51 / var(--tw-text-opacity));
+}
+
+.texto-autor {
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(51 51 51 / var(--tw-text-opacity));
+}
+
+.grid-imagenes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.imagenes-cocina {
+  margin-bottom: 1.25rem;
+  margin-right: 2.5rem;
+  height: 11rem;
+  width: 11rem;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.imagenes-cocina:hover {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 /*sexta seccion*/
 
 /*septima seccion*/
@@ -1047,9 +1122,17 @@ video {
   display: table;
 }
 
+.grid {
+  display: grid;
+}
+
 .size-6 {
   width: 1.5rem;
   height: 1.5rem;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-nowrap {
