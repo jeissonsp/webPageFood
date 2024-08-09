@@ -1,3 +1,66 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+ 
+}
+
+@layer components {
+
+  .header {
+    @apply 
+    flex 
+    flex-row
+    w-full    
+    p-12
+    bg-background-primera
+    
+    ;
+    
+  }
+
+  .logo-omnifood {
+    @apply 
+    h-5;
+  }
+
+  .nav-main {
+    @apply 
+    flex 
+    flex-grow
+    font-Rubik
+    
+    gap-6
+    mx-auto
+    justify-end
+    text-lg
+    font-medium
+    text-gris-nav
+   
+    ;
+  }
+
+  .nav-main-link{
+    @apply
+    hover:text-naranja-hover
+    ;
+  }
+
+  
+  .btn-naranja{
+    @apply
+    text-center
+      bg-naranja
+      text-white
+      pt-2
+      pb-2
+      pl-7
+      pr-7
+      text-base
+      rounded-xl
+      hover:bg-naranja-hover 
+    ;
+  }
+}
