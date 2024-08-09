@@ -176,4 +176,45 @@
     text-xl
     ;
   }
+
+  /*segunda seccion*/
+  .segunda-seccion{
+    @apply
+      block
+      text-center 
+    mx-auto
+    p-12
+    bg-white      
+    ;
+  }
+  .titulo-seccion02{
+    @apply
+    grayscale
+    text-base 
+    font-semibold 
+    text-gris-texto
+    ;
+  }
+  .images-partner{
+    @apply
+      flex
+      flex-row
+      w-10/12
+      mx-auto
+      gap-8
+      justify-center
+      p-6
+
+    ;
+  }
+  .imag{
+    @apply
+      h-9
+      w-7/12
+      grayscale
+      hover:grayscale-0
+      hover:brightness-100
+      hover:scale-95
+    ;
+  }
 }
